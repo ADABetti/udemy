@@ -1,0 +1,12 @@
+var a = 8.8;
+var b = 5.1;
+var c = 79;
+
+console.log(Math.round(a)); // arrendonda o valor
+console.log(Math.max(a,b,c)); // compara valores e retorna o mais alto
+console.log(Math.min(a,b,c,)); // compara valores e retorna o mais baixo
+console.log(Math.floor(a)); // arredonda para baixo
+console.log(Math.ceil(b)); // arredonda para cima
+console.log(Math.random()); // seleciona um número aleatório entre 0 e 1.
+
+console.log(new Date());

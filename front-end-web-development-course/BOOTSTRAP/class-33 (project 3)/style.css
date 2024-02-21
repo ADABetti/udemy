@@ -1,0 +1,29 @@
+.blur-filter{
+    backdrop-filter: blur(8px);
+    background-color: rgba(219 213 213 / 30%);
+}
+
+.brand-gradient {
+    background: #008080;
+    background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFFFF 75%, #005757 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.full-width{
+    width: 100%;
+    height: auto;
+}
+
+.feature-item img{
+    height:70px;
+    width: auto;
+}
+
+.subscribe{
+    background-image: url(imagens/subscribe.jpg);
+    background-size:cover;
+    background-position: center;
+    
+}

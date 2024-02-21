@@ -1,0 +1,19 @@
+.box{
+    max-width: 1000px;
+    color: white;
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    padding: 15px;
+}
+
+.box h1{
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .box{
+        background-color: rgb(128, 0, 49);
+        color: rgb(43, 192, 226);
+    }
+}

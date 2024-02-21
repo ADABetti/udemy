@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Header and Logo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <!--header-->
+
+            <div id="logo">
+                <a href="index.html">
+                    <img id="img-logo" src="https://www.ffwd.org/wp-content/uploads/Hello-World-logo.png" alt="Logo">
+                </a>
+            </div>
+            <div id="search-container">
+                <form>
+                    <input type="text" name="search" placeholder="Type your question">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+            <div class="clear-fix"></div>
+            <nav class="main-menu">
+                <!--nav-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Services</a>
+                        <ul class="drop">
+                            <li><a href="services/service1.html">Service 1</a></li>
+                            <li><a href="services/service2.html">Service 2</a></li>
+                            <li><a href="services/service3.html">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contactUs.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!--nav-->
+        </header>
+        <!--header-->
+
+        <section class="content-holder">
+            <!--Content holder-->
+
+            <section class="banner">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29255.432520036306!2d-46.682844984374995!3d-23.570990999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bfbdb1f4e3%3A0x8e649b93341decc5!2sGoogle%20Campus%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1668806763353!5m2!1sen!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+
+            <article class="content">
+                <!--Content-->
+                <h1>This is an example to add content on the page</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    henderit! Quidem facere magni dolores.
+                </p>
+
+                <div class="contactForm"></div>
+                <form method="POST">
+                    <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" name="c_name" required></td>
+                        </tr>
+                        <tr>
+                            <td>Phone number:</td>
+                            <td><input type="number" name="c_phone" required ></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="c_email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Message:</td>
+                            <td><textarea name="c_message" id="" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" name="c_send" value="Send Message"></td>
+                        </tr>
+                    </table>
+                </form>
+
+            </article>
+            <!--Content-->
+
+            <aside class="sidebar">
+                <!--sidebar-->
+                <h3>Widget</h3>
+                <ul>
+                    <li> <a href="#">2018</a></li>
+                    <li> <a href="#">2019</a></li>
+                    <li> <a href="#">2020</a></li>
+                </ul>
+            </aside>
+            <!--sidebar-->
+            <div class="clear-fix"></div>
+
+        </section>
+        <!--Content holder-->
+
+        <footer class="main-footer">
+            <!--footer-->
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <address>
+                    <h3>Company name</h3>
+                    <p> #333 Street Place - NJ - USA</p>
+                    <p>Email: <a href="mailto:contact@gmail.com">contact@gmail.com</a></p>
+                    <p>Phone: <a href="tel:1234567">1234567</a></p>
+                </address>
+            </div>
+
+            <div class="clear-fix"></div>
+        </footer>
+        <!--footer-->
+
+
+
+        <div class="copyright">
+            <p> <small>Copyright &copy; 2022. All the rights reserved.</small> </p>
+        </div>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+
+</body>
+
+</html>

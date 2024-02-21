@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel"></script>
+
+    <script>
+
+        var [first,,third] = ["RJ", "SP", "BA"];
+        console.log(first, third);
+
+        var {title, price} = {
+            title: "Cheese sandwich",
+            price: 20,
+            description: "Cheese sandwich with bacon and lettuce",
+            ingredients: ["cheese", "bacon", "lettuce"],
+        }
+
+        console.log(title);
+        console.log(price);
+
+        var vacation = {
+            destination: "Bahia",
+            travelers: 2,
+            activity: "enjoy the beach",
+            cost: 400,
+        };
+
+        function vacationMkt ({destination,activity}){
+            return `Let's go to ${destination}, ${activity}`;
+        };
+
+       console.log(vacationMkt(vacation));
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

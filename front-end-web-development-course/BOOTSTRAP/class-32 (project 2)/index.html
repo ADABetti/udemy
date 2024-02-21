@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Navbar-->
+
+    <nav class="navbar navbar-expand-lg bg-dark small border-bottom shadow-sm fixed-top custom-nav" style="--bs-bg-opacity: .9">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <span class="brand-style brand-gradient">
+                    BLOG2.0
+                </span>
+            </a>
+            <button type="button" class="navbar-toggler border-0 text-light" data-bs-toggle="collapse" data-bs-target="#blog-navbar" aria-controls="blog-navbar" aria-expanded="false" aria-label="Toggle Navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse " id="blog-navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-light">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="default.html" class="nav-link text-light">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="post.html" class="nav-link text-light">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages.html" class="nav-link text-light">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html" class="nav-link text-light">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="default.html" class="nav-link text-light">Default</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input type="search" class="form-control form-control-sm" placeholder="search for">
+                        <button type="submit" class="btn btn-sm btn-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar-->
+
+    <!--BANNER-->
+    <section class="banner-holder pt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="banner-content text-center text-white my-5 py-5">
+                        <h1>Lorem ipsum  Officia veri</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem eligendi ullam quas similique, nemo deleniti asperiores ad laudantium veritatis atque porro rerum odio dolorum illo soluta! Aspernatur, nobis velit?</p>
+                    <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#subscribe-modal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                          </svg> Subscribe the newsletter   
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--BANNER-->
+
+    <!-- HOME POSTS-->
+        <section class="home-pots py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm mb-3">
+                            <img class="card-img-top" src="img/post.jpg" alt="post-image">
+                            <div class="card-body">
+                                <h3 class="fs-5">text text</h3>
+                                <p class="small fw-light">Lorem ipsum dol. Labore, molestiae minus libero aliquam totam magnam, fuga repudiandae, necessitatibus aut excepturi repellat corporis culpa assumenda nisi dolor consequuntur voluptas illo ratione!</p>
+                                <a href="#" class="btn btn-sm btn-warning d-grid rounded-pill shadow-sm px-3">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- HOME POSTS-->
+
+    <!--BLOG FOOTER-->
+     <footer class="main-footer text-bg-dark p-4 text-center">
+        <p class="m-0"><small>copyright &copy;2023. All rights reserved</small></p>
+     </footer>
+    <!--BLOG FOOTER-->
+    
+    <!-- SUBSCRIBE MODAL-->
+    <div class="modal fade" id="subscribe-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary">
+                    <h5 class="modal-title">Subscribe for newsletter</h5>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row gx-2">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="email" class="form-control form-control-sm" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-success btn-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                          </svg> Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SUBSCRIBE MODAL-->
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

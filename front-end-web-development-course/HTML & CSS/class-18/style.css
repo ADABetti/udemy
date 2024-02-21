@@ -1,0 +1,19 @@
+#box{
+    font-family: sans-serif;
+    width: 500px;
+    height: auto;
+}
+
+.text-box{
+    font-style: italic;
+    color: rgb(211, 29, 56);
+}
+
+div#box > .simple-text {
+    color: rgb(58, 42, 165);
+}
+
+div#box > p > span{
+    font-weight: bold;
+    color: chartreuse;
+}

@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position:relative;
+    animation-name: runMe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes runMe {
+    from {
+        background-color: brown;
+    }
+
+    to {
+        background-color: blueviolet;
+    }
+
+}
+
